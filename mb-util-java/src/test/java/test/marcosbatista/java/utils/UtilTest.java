@@ -25,6 +25,7 @@ import org.junit.Test;
 import marcosbatista.java.utils.Util;
 import marcosbatista.java.utils.Validation;
 import marcosbatista.java.utils.Util.Reflection;
+import test.marcosbatista.java.utils.samples.CityImpl;
 import test.marcosbatista.java.utils.samples.Country;
 import test.marcosbatista.java.utils.samples.CountryImpl;
 import test.marcosbatista.java.utils.samples.Person;
@@ -168,9 +169,9 @@ public class UtilTest {
 	
 	@Test
 	public void getGetter() {
-		Method getter = Util.Pojo.getGetter(PersonImpl.class, "age");
-		assertEquals("getAge", getter.getName());
-		assertEquals("Integer", getter.getReturnType().getSimpleName());
+		Method getter = Util.Pojo.getGetter(CityImpl.class, "province");
+		assertEquals("getProvince", getter.getName());
+		assertEquals("Province", getter.getReturnType().getSimpleName());
 	}
 	
 	@Test
