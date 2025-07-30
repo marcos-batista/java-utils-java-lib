@@ -1,4 +1,4 @@
-package test.marcosbatista.java.utils.samples;
+package test.marcosbatista.java.utils.java_samples;
 
 public class CityImpl implements City {
 	

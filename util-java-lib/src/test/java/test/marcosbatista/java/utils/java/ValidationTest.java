@@ -1,4 +1,4 @@
-package test.marcosbatista.java.utils;
+package test.marcosbatista.java.utils.java;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import marcosbatista.java.utils.Validation;
+import marcosbatista.java.utils.java.Validation;
 
 public class ValidationTest {
 	

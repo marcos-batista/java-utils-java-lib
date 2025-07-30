@@ -1,4 +1,4 @@
-package marcosbatista.java.utils;
+package marcosbatista.java.utils.java;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

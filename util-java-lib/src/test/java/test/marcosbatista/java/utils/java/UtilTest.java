@@ -1,4 +1,4 @@
-package test.marcosbatista.java.utils;
+package test.marcosbatista.java.utils.java;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -22,16 +22,16 @@ import javax.management.Query;
 
 import org.junit.Test;
 
-import marcosbatista.java.utils.Util;
-import marcosbatista.java.utils.Validation;
-import marcosbatista.java.utils.Util.Reflection;
-import test.marcosbatista.java.utils.samples.CityImpl;
-import test.marcosbatista.java.utils.samples.Country;
-import test.marcosbatista.java.utils.samples.CountryImpl;
-import test.marcosbatista.java.utils.samples.Person;
-import test.marcosbatista.java.utils.samples.PersonImpl;
-import test.marcosbatista.java.utils.samples.Province;
-import test.marcosbatista.java.utils.samples.ProvinceImpl;
+import marcosbatista.java.utils.java.Util;
+import marcosbatista.java.utils.java.Validation;
+import marcosbatista.java.utils.java.Util.Reflection;
+import test.marcosbatista.java.utils.java_samples.CityImpl;
+import test.marcosbatista.java.utils.java_samples.Country;
+import test.marcosbatista.java.utils.java_samples.CountryImpl;
+import test.marcosbatista.java.utils.java_samples.Person;
+import test.marcosbatista.java.utils.java_samples.PersonImpl;
+import test.marcosbatista.java.utils.java_samples.Province;
+import test.marcosbatista.java.utils.java_samples.ProvinceImpl;
 
 public class UtilTest {
 	
